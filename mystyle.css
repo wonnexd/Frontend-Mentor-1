@@ -1,0 +1,67 @@
+body {
+  background-image: url("images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.bildrund {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.mitte {
+margin: 0;
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.centerimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.textcenter {
+  background-color:lightblue;
+  text-align: center;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.uberschrift {
+  font-size: 200%;
+  padding: 30px;
+}
+
+.planauswahl {
+  padding: 10px;
+  background-color: rgb(202, 202, 202);
+  background-image: url(images/icon-music.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left; 
+  margin: 15px;
+  border-radius: 25px;
+}
+
+.textrechts {
+  text-align: right;
+}
+
+.payment {
+  font-weight: bold;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  margin: 15px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: blue;
+}
+
+.cancel {
+  color:dimgray;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
